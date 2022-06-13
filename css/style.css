@@ -1,5 +1,5 @@
 body {
-  background: url(D:\rs_school\rsschool-cv\img\background for cv.png) no-repeat 30px 20px;
+  background: url(img/background_for_cv.png) no-repeat 30px 20px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -13,6 +13,7 @@ body {
 }
 .nav-list {
   font-size: 150%;
+  text-align: justify;
   display: flex;
   align-items: center;
   list-style: none;
