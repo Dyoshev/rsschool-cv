@@ -1,19 +1,23 @@
-body {
-  background: url(img/background_for_cv.png) no-repeat 30px 20px;
+* {
+  box-sizing: bourder-box;
 }
 body {
   font-family: 'Roboto', sans-serif;
-}
-* {
-  box-sizing: bourder-box;
+  background-color: rgb(82, 184, 78);
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+html {
+  scroll-behavior: smooth; 
+}
+.header {
+  background-color: rgb(43, 1, 1);
+  color: azure;
+}
 .nav-list {
-  font-size: 150%;
-  text-align: justify;
+  font-size: 18px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -22,4 +26,10 @@ body {
 }
 .nav-list li a {
   text-decoration: none;
+}
+.nav-link{
+  margin-left: 15px;
+  font-weight: bold;
+  color:azure;
+
 }
