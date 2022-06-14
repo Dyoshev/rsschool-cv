@@ -34,6 +34,10 @@ describe("Multiply", () => {
 
 JavaScript/Front-end.
 
+## Projects
+
+https://Dyoshev.github.io/rsschool-cv/cv
+
 ## languages:
 
 Russian,English (A1)
