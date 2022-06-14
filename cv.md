@@ -10,6 +10,12 @@
 
 I'm starting to learn programming languages. I am a student.
 
+## Skills:
+
+Html
+
+CSS
+
 ## Code examples:
 ```
 const assert = require("chai").assert;
@@ -27,6 +33,10 @@ describe("Multiply", () => {
 ## Courses:
 
 JavaScript/Front-end.
+
+## Projects
+
+https://Dyoshev.github.io/rsschool-cv/cv
 
 ## languages:
 

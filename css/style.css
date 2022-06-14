@@ -1,1 +1,80 @@
-12345
+* {
+  box-sizing: bourder-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(153, 158, 153, 0.473);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.header {
+  background-color: rgb(43, 1, 1);
+}
+.nav-list {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+.nav-list li a {
+  text-decoration: none;
+}
+.nav-link{
+  margin-left: 15px;
+  font-weight: bold;
+  color:azure;
+  transition: .3s;
+}
+.avatar {
+  margin: 25px 0;
+  height: 300px;
+  width: 300px;
+
+}
+.section-profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  align-items: center;
+  font-size: 30px;
+  border-bottom: solid 10px black;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section{
+  border-bottom: solid 3px black;
+}
+.section-title {
+  color: black;
+  letter-spacing: 3px;
+}
+.footer{
+  background-color: rgb(43,1,1);
+  color: azure;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-logo{
+  height: 30px;
+}
+.link{
+  text-decoration: none;
+  background-color: rgb(92, 92, 160);
+  color:black;
+}
